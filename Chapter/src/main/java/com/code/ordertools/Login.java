@@ -46,7 +46,7 @@ public class Login {
         JDBCDTO mydb = new GlobalConfig().getmy_db("stg");
         JdbcClient jdbc = new JdbcClient(mydb.getJdbcUrl(), mydb.getUser(),mydb.getPwd());
         try {
-            List<DataMap> list = jdbc.fetchRows("select * from db where id =1");
+            List<DataMap> list = jdbc.fetchRows("select * from db where id =11");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
