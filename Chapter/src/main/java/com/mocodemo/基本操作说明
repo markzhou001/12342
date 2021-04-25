@@ -1,0 +1,8 @@
+moco运行命令行：
+
+下载地址：https://repo1.maven.org/maven2/com/github/dreamhead/moco-runner/0.11.0/
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
+
+
+
